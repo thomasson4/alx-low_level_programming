@@ -21,7 +21,7 @@ int main(void)
 		c = (a / b);
 		a = c;
 	}
-	printf("%Ii\n", b);
+	printf("%li\n", b);
 
 	return (0);
 }
