@@ -13,15 +13,15 @@ int main(void)
 	{
 		for (b = 2; b <= a; ++b)
 		{
-			if ((a %b) == 0)
+			if ((a % b) == 0)
 			{
 				break;
 			}
 		}
-		c = (a /b);
+		c = (a / b);
 		a = c;
 	}
-	printf("%li\n",b);
+	printf("%Ii\n", b);
 
 	return (0);
 }
