@@ -5,10 +5,10 @@
 void more_numbers(void)
 {
 	int n = 48;
-	int 1 = 0;
+	int I = 0;
 	int reset = 0;
 
-	while (1 < 10)
+	while (I < 10)
 	{
 		while (n <= 62)
 		{
@@ -22,7 +22,7 @@ void more_numbers(void)
 		}
 		n = 48;
 		reset = 0;
-		i++;
+		I++;
 		_putchar(10);
 	}
 }
