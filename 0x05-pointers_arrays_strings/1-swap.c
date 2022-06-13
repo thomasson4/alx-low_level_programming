@@ -1,15 +1,15 @@
 #include "main.h"
+
 /**
- * swap_init - function
- *
- * @a: pointer of parameter
- * @b: pointer of parameter
+ * swap_init - changes values
+ * @a: character to be inputed
+ * @b: second character to be inputed
  */
+
 void swap_int(int *a, int *b)
 {
-	int temp;
-
-	temp = (*a);
-	(*a) = (*b);
-	(*b) = temp;
+	int c;
+	c = *a;
+	*a = *b;
+	*b = c;
 }
