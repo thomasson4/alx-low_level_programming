@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  * reset_to_98 - function
  *
- * @n: pointer of a variable 
+ * @n: pointer of a variable n
  */
 void reset_to_98(int *n)
 {
