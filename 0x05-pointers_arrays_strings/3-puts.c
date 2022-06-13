@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _put - function that prints a string
+ * _puts - function that prints a string
  * @str: character to be inputed
  */
 
-void _put(char *str)
+void _puts(char *str)
 {
 	int len = 0;
 
