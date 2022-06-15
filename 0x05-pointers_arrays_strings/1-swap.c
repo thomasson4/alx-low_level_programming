@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * swap_init - function
+ * swap_int - function
  *
  * @a: pointer of parameter
  * @b: pointer of parameter
