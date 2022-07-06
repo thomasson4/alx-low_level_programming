@@ -10,7 +10,7 @@
 int _strlen(char *s)
 {
 	int x;
-	
+
 	x = 0;
 	while (s[x] != '\0')
 		x++;
@@ -31,7 +31,7 @@ char *_strcpy(char *dest, char *src)
 	int len, i;
 
 	len = 0;
-	
+
 	while (src[len] != '\0')
 	{
 		len++;
@@ -42,7 +42,7 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 	}
 	dest[i] = '\0';
-	
+
 	return (dest);
 }
 
@@ -57,7 +57,7 @@ char *_strcpy(char *dest, char *src)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	struct dog *n;
-	
+
 	n = malloc(sizeof(struct dog));
 	if (n == NULL)
 		return (NULL);
