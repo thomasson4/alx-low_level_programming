@@ -32,7 +32,7 @@ int _pow(int x, int y)
  * unsigned int
  *
  * @b: Pointer with the string whit the number to convert
- * 
+ *
  * Return: The number converted
  */
 unsigned int binary_to_uint(const char *b)
