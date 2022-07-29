@@ -30,7 +30,7 @@ int error_handler(int fd, char *fname, int type, char *buffer)
 	{
 	case READ_ERROR:
 		dprintf(STDERR_FILENO,
-				"Error: Can't read from file %s\n", fname);
+			"Error: Can't read from file %s\n", fname);
 		if (buffer != NULL)
 			free(buffer);
 		status = 98;
