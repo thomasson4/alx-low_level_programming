@@ -28,22 +28,22 @@ int error_handler(int fd, char *fname, int type, char *buffer)
 
 	switch (type)
 	{
-		case READ_ERROR:
-			dprintf(STDERR_FILENO,
-				"Error: Can't read from file %s\n", fname);
-			if (buffer != NULL)
+	case READ_ERROR:
+		dprintf(STDERR_FILENO,
+			"Error: Can't read from file %s\n", fname);
+		if (buffer != NULL)
 			free(buffer);
-			status = 98;
-			break;
+		status = 98;
+		break;
 		case WRITE_ERROR:
 			dprintf(STDERR_FILENO,
-				"Error: Can't write to %s\n", fname);
-			if (buffer != NULL)
+					"Error: Can't write to %s\n", fname);
+		if (buffer != NULL)
 			free(buffer);
-			status = 99;
-			break;
-		default:
-			break;
+		status = 99;
+		break;
+	default:
+		break;
 	}
 	return (status);
 }
